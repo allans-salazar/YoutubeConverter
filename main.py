@@ -15,6 +15,7 @@ def download_video(url, save_path): #Youtube function downloads the video & save
 
     except Exception as e: 
         print(e)
+        x.set('ERROR IN DOWNLOAD... TRY AGAIN')
 
 def on_progress(stream, total_size, bytes_remaining):
     total_size = stream.filesize
@@ -23,6 +24,9 @@ def on_progress(stream, total_size, bytes_remaining):
     loadingBar['value'] = percentage_completed
     main_window.update()
     print(percentage_completed)
+
+    if (loadingBar['value'] == 100):
+        x.set('Completed Download!')
 
 
 def open_file_dialog(): #function from tkinter to open Folders from PC 
@@ -40,7 +44,6 @@ def downloadButton():
     if save_dir:
         print("Started download...")
         download_video(link, save_dir)
-        x.set('Completed Download!')
     else:
         print("Invalid save location.")
 
