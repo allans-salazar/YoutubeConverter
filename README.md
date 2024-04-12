@@ -9,3 +9,5 @@ I used this command after installing: pyinstaller --onedir --noconsole --icon Yo
 
 
 I grabbed the icon from this website: https://www.iconarchive.com/show/papirus-apps-icons-by-papirus-team/youtube-dl-icon.html
+
+** I would be sure to update if any bugs found or make the GUI cooler if normal Tkinter allows it. **
