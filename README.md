@@ -10,4 +10,4 @@ Using and installing "pyinstaller" I was able to create the app on my laptop and
 
 I grabbed the icon from this website: https://www.iconarchive.com/show/papirus-apps-icons-by-papirus-team/youtube-dl-icon.html
 
-*I would be sure to update if any bugs found or make the GUI cooler if normal Tkinter allows it.*
+*Python Library 'pyube' no longer is being support making the application unable to work as well*
