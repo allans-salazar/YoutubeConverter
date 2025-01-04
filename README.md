@@ -10,4 +10,4 @@ Using and installing "pyinstaller" I was able to create the app on my laptop and
 
 I grabbed the icon from this website: https://www.iconarchive.com/show/papirus-apps-icons-by-papirus-team/youtube-dl-icon.html
 
-*Python Library 'pyube' no longer is being support making the application unable to work as well*
+*Python Library 'pytube' no longer is being support making the application unable to work as well*
